@@ -6,7 +6,7 @@ This document describes the keylogger fonctionnal specifications.
 
 ## Use case
 
-![Keylogge - use cases](UML - Use cases.png)
+![Keylogger - use cases](UML - Use cases.png)
 
 ## Installation management
 
@@ -14,9 +14,11 @@ This document describes the keylogger fonctionnal specifications.
 
 The *Computer's owner* get a delegated identity from the account manager (Centralized Server) then installs the keylogger on his computer with this identity and URL of the centralized server. Before installation, the computer owner must confirm that he is the owner of the computer and data by explicitly typing the sentence "This is my computer and my data".
 
-During installation, the keylogger is added to the startup of any window sessions.
+During installation, the keylogger can be added to the startup of any window sessions.
 
 After installation, the keylogger must be hidden, no window should be visible and the collect operation must start (see *Collect* use case).
+
+![Installation - Activity diagram](UML - Installation.png)
 
 ### Uninstall
 
