@@ -7,3 +7,17 @@ This document describes the keylogger fonctionnal specifications.
 ## Use case
 
 ![Keylogge - use cases](UML - Use cases.png)
+
+## Installation management
+
+### Install
+
+### Uninstall
+
+## Data collector
+
+### Collect
+
+### Send collected data
+
+### Collect pressed keys
