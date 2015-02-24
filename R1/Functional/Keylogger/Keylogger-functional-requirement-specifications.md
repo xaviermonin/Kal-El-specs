@@ -27,7 +27,9 @@ The keylogger stop its collect operation, remove to the startup and self uninsta
 
 ### Configuration
 
-The *Computer's owner* run the keylogger from the original binary or installation path, the keylogger configuration window appears.
+The *Computer's owner* run the keylogger from the original binary or installation path, the keylogger configuration window appears. This windows also appears when `<Ctrl><Shift>KAL-EL</Shift><Ctrl>` is pressed.
+
+In the configuration window, the *Computer's owner* can enable/disable the startup run and uninstall the keylogger (see *Uninstall* use case)
 
 ## Data collector
 
