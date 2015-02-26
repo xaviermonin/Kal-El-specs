@@ -35,8 +35,10 @@ In the configuration window, the *Computer's owner* can enable/disable the start
 
 ### Collect
 
+![Send data - Activity diagram](diagrams/UML - Collect.png)
+
 ### Send collected data
 
-![Send data - Activity diagram](diagrams/UML - Send data.png)
+![Send data - Activity diagram](diagrams/UML - Submit.png)
 
 ### Collect pressed keys
