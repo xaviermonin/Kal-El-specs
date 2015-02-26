@@ -16,7 +16,7 @@ Kal-El is an online keylogger composed by a suite of applications:
 * **Centralized server**: Store collected data. Provide an API for collector and consumer applications.
 * **Consumer**: Client consumer application. Provide an user interface to view collected data. This application WILL NOT be made in this release (R1).
 
-![Flow](documents/UML - System.png)
+![Flow](diagrams/UML - System.png)
 
 ### Use cases
 

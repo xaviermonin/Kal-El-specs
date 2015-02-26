@@ -6,7 +6,7 @@ This document describes the keylogger fonctionnal specifications.
 
 ## Use case
 
-![Keylogger - use cases](UML - Use cases.png)
+![Keylogger - use cases](diagrams/UML - Use cases.png)
 
 ## Installation management
 
@@ -18,7 +18,7 @@ During installation, the keylogger can be added to the startup of any window ses
 
 After installation, the keylogger must be hidden, no window should be visible and the collect operation must start (see *Collect* use case).
 
-![Installation - Activity diagram](UML - Installation.png)
+![Installation - Activity diagram](diagrams/UML - Installation.png)
 
 ### Uninstall
 
@@ -37,6 +37,6 @@ In the configuration window, the *Computer's owner* can enable/disable the start
 
 ### Send collected data
 
-![Send data - Activity diagram](UML - Send data.png)
+![Send data - Activity diagram](diagrams/UML - Send data.png)
 
 ### Collect pressed keys
