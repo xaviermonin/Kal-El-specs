@@ -35,9 +35,18 @@ In the configuration window, the *Computer's owner* can enable/disable the start
 
 ### Collect
 
+The keylogger starts to collect after the installation and stop when asked to exit (uninstall, terminate process, windows shutdown).
+The collected data are pressed keys (see *Collect pressed keys* use case) only in this release.
+
+All locally stored data must be **encrypted**.
+
 ![Send data - Activity diagram](diagrams/UML - Collect.png)
 
 ### Send collected data
+
+The collected data must be send to centralized server every hour or on internet connection availability (if the internet connection was not available).
+
+Collected data are send to centralized server with [collected data specifications format](../collected data specifications/specifications.md).
 
 ![Send data - Activity diagram](diagrams/UML - Submit.png)
 
