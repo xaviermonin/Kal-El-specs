@@ -50,4 +50,12 @@ Collected data are send to centralized server with [collected data specification
 
 ![Send data - Activity diagram](diagrams/UML - Submit.png)
 
-### Collect pressed keys
+### Collect keystroke
+
+The keylogger must collect standard keystrokes :
+* Typewriter keys: *A-Z a-z 0-9 /-|{} [Space] [Tab] [Enter]* etc.
+* Function keys: *[F1] [F2]* etc.
+* Others keys: *[Esc] [Del] [Home] [Pause] [Page Up]* etc.
+* Cursor control keys: *[<] [^] [>] [v]*
+* Dead key: *^¨* etc.
+* Modifier keys (with state: pressed and release): *[Ctrl] some other keys [/Ctrl]* *[Alt] some other keys [/Alt]*
