@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document describes the centralized server functional specifications. The server collect Keylogger's datas and provide a secure access to this data.
+This document describes the centralized server functional specifications. The server collects Keylogger's data and provide a secure access to this data.
 For this, the server is composed by two main components, the collector and the consumer. 
 
 ## Use case
@@ -13,12 +13,12 @@ For this, the server is composed by two main components, the collector and the c
 
 ### Install
 
-Comming Soon
+Coming Soon
 
 ### Collector API
 
-This API is WebService to collect, adjust and store data from a external keylogger.
+This API is WebService to collect, adjust and store data from an external keylogger.
 
 ### Consumer API
 
-This AP is WebService to access a storage data. To get data, you need to be identified and to subcribe on flux of data.
+This AP is WebService to access a storage data. To get data, you need to be identified and to subscribe on flux of data.
