@@ -46,7 +46,7 @@ All locally stored data must be **encrypted**.
 
 The collected data must be send to centralized server every hour or on internet connection availability (if the internet connection was not available).
 
-Collected data are send to centralized server with [collected data specifications format](../Collected data specifications/specifications.md).
+Collected data are send to centralized server with [collected data format](../Collected data format/collected data format.md).
 
 ![Send data - Activity diagram](diagrams/UML - Submit.png)
 
