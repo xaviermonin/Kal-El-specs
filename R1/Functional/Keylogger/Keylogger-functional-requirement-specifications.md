@@ -12,7 +12,7 @@ This document describes the keylogger fonctionnal specifications.
 
 ### Install
 
-The *Computer's owner* get a delegated identity from the account manager (Centralized Server) then installs the keylogger on his computer with this identity and URL of the centralized server. Before installation, the computer owner must confirm that he is the owner of the computer and data by explicitly typing the sentence "This is my computer and my data".
+The *Computer's owner* authenticates to the account manager (see *Authorization plateform specifications*) and get a consumer delegated identity (client id and client secret) from the account manager. The *Computer's owner* installs the keylogger on his computer with this identity and the URL of the centralized server. Before installation, the computer owner must confirm that he is the owner of the computer and data by explicitly typing the sentence "This is my computer and my data".
 
 During installation, the keylogger can be added to the startup of any window sessions.
 
