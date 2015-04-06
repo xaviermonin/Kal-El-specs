@@ -2,7 +2,7 @@
 ## Introduction
 The document describes the user requirement and functional specifications of Kal-El solution for the first release (R1).
 
-To describe the requirements, UML2 diagrams and use stories are used.
+To describe the requirements, UML2 diagrams and user stories are used.
 
 ### What is Kal-El ?
 Kal-El is the project codename for the first release of an online keylogger application.
