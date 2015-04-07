@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This document describes the centralized server functional specifications. The server collects Logger's data and provide a secure access to this data for a Consumer.
-For this, the server is composed by third main components :
+This document describes the centralized server functional specifications.
+The *Centralized server* collects logger data and provide a secure access to this data for a *Consumer* via APIs.
+For this, the server has two main components:
 - Collector API
 - Consumer API
-- Authentication API
 
 ## Use case
 
@@ -14,12 +14,18 @@ For this, the server is composed by third main components :
 
 ### Collector API
 
-This API is WebService to collect, adjust and store data from an external Keylogger. If the kelogger has a valid computer token, it is authorize to send data.
-Next, the Collector API prepares the data and stores  it in storage data.
+The *Collector API* receive, adjust and store data from an external logger (a keylogger in this release : R1).
 
-![Collector - Activity](diagrams/UML - Activity - Collector.png)
+#### Receive data
 
-The data of communication between the keylogger and the Collector API is defined [here](../Collected data format/collected data format.md).
+The external logger sign in to the *Authentication platform* with a delegated identity data provider (client id and client secret). This delegated identity provides only access to collector APIs as a specific account and is provided by the *Account Manager* of the *Authentication platform*.
+The *Collector APIs* checks the right of the delegated identity: it must have the right to record the data collected as the associated account.
+It receives the collected data from the logger.
+The data format used between the *Logger* and the *Collector API* is defined by the [collected data format](../Collected data format/collected data format.md).
+
+![Collector - Activity](diagrams/UML - Activity - Receive data.png)
+
+#### Store data
 
 ### Consumer API
 

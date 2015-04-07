@@ -4,7 +4,7 @@
 
 This document describes the keylogger fonctionnal specifications.
 
-## Use case
+## Use cases
 
 ![Keylogger - use cases](diagrams/UML - Use cases.png)
 
